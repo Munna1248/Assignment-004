@@ -1,5 +1,3 @@
-// Problem-01: Train TT's Fine Calculator
-
 function totalFine(fare) {
     if (typeof fare !== "number") {
         return "Invalid";
@@ -11,9 +9,9 @@ function totalFine(fare) {
 
     let surcharge = fare * 0.2;
     let serviceCharge = 30;
-    let total = fare + surcharge + serviceCharge;
+    let fine = fare + surcharge + serviceCharge;
 
-    return total;
+    return fine;
 }
 
 // Test Cases

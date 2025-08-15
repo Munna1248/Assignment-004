@@ -4,9 +4,9 @@ function onlyCharacter(str) {
     }
 
     let noSpaces = str.replace(/ /g, "");
-    let capitalLetters = noSpaces.toUpperCase();
+    let capLet = noSpaces.toUpperCase();
 
-    return capitalLetters;
+    return capLet;
 }
 
 // Test Cases
